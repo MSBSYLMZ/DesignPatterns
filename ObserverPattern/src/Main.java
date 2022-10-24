@@ -5,12 +5,17 @@ public class Main {
         Statistics statistics = new Statistics();
         Forecast forecast = new Forecast();
 
-        weatherData.subscribe(currentConditions);
-        weatherData.subscribe(statistics);
-        weatherData.subscribe(forecast);
+        currentConditions.subscribe(weatherData);
+        statistics.subscribe(weatherData);
+        forecast.subscribe(weatherData);
 
         weatherData.setPressure(14.3f);
         System.out.println("I will change the temperature as well ");
         weatherData.setTemperature(36.0f);
+
+        System.out.println("I will remove the Statistics observation");
+        statistics.unsubscribe(weatherData);
+
+        weatherData.setHumidity(89.2f);
     }
 }
