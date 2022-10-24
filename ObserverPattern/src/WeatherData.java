@@ -1,54 +1,38 @@
 import java.util.ArrayList;
+import java.util.List;
 
-public class WeatherData {
-    float temperature;
-    float humidity;
-    float pressure;
+public class WeatherData implements Subject{
+    private float temperature;
+    private float humidity;
+    private float pressure;
 
-    ArrayList<Display> subscribers = new ArrayList<>();
+    private List<Observer> observers;
 
-    public float getTemperature() {
-        return temperature;
+    public WeatherData() {
+        observers = new ArrayList<Observer>();
     }
 
-    public float getHumidity() {
-        return humidity;
+    public void registerObserver(Observer o) {
+        observers.add(o);
     }
 
-    public float getPressure() {
-        return pressure;
+    public void removeObserver(Observer o) {
+        observers.remove(o);
     }
 
-    public void setTemperature(float temperature) {
+    public void notifyObservers() {
+        for (Observer o: observers) {
+            o.update(temperature, humidity, pressure);
+        }
+    }
+    public void measurementsChanged() {
+        notifyObservers();
+    }
+
+    public void setMeasurements(float temperature, float humidity, float pressure) {
         this.temperature = temperature;
-        measurementsChanged();
-    }
-
-    public void setHumidity(float humidity) {
         this.humidity = humidity;
-        measurementsChanged();
-    }
-
-    public void setPressure(float pressure) {
         this.pressure = pressure;
         measurementsChanged();
     }
-
-    public void measurementsChanged() {
-        for (Display d: subscribers) {
-            d.update(temperature, humidity, pressure);
-        }
-        
-    }
-
-    public void subscribe(Display d) {
-        subscribers.add(d);
-    }
-
-    public void unsubscribe(Display d) {
-        subscribers.remove(d);
-    }
-
-
-
 }

@@ -1,21 +1,14 @@
 public class Main {
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();
-        CurrentConditions currentConditions = new CurrentConditions();
-        Statistics statistics = new Statistics();
-        Forecast forecast = new Forecast();
 
-        currentConditions.subscribe(weatherData);
-        statistics.subscribe(weatherData);
-        forecast.subscribe(weatherData);
+        var currentDisplay = new CurrentConditionsDisplay(weatherData);
+        var statisticsDisplay = new StatisticsDisplay(weatherData);
+        var forecastDisplay = new ForecastDisplay(weatherData);
 
-        weatherData.setPressure(14.3f);
-        System.out.println("I will change the temperature as well ");
-        weatherData.setTemperature(36.0f);
+        weatherData.setMeasurements(80, 65, 30.4f);
+        weatherData.setMeasurements(82, 70, 29.2f);
+        weatherData.setMeasurements(78, 90, 29.2f);
 
-        System.out.println("I will remove the Statistics observation");
-        statistics.unsubscribe(weatherData);
-
-        weatherData.setHumidity(89.2f);
     }
 }

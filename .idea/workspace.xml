@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c36eeea5-361e-4fd6-b41a-e1069b27d5b9" name="Changes" comment="Implementation of Observer Pattern">
+    <list default="true" id="c36eeea5-361e-4fd6-b41a-e1069b27d5b9" name="Changes" comment="Improvement on subscribe system">
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/CurrentConditionsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/DisplayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/ForecastDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/StatisticsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/Subject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObserverPattern/src/CurrentConditions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObserverPattern/src/Forecast.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ObserverPattern/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObserverPattern/src/Statistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObserverPattern/src/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/src/WeatherData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -61,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666615933178</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Improvement on subscribe system">
+      <created>1666616571827</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666616571827</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,6 +95,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementation of Strategy Design Pattern" />
     <MESSAGE value="Implementation of Observer Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation of Observer Pattern" />
+    <MESSAGE value="Improvement on subscribe system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improvement on subscribe system" />
   </component>
 </project>
