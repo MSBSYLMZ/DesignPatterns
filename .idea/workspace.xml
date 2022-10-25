@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c36eeea5-361e-4fd6-b41a-e1069b27d5b9" name="Changes" comment="Improvement on subscribe system">
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/CurrentConditionsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/ForecastDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/StatisticsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/src/Subject.java" afterDir="false" />
+    <list default="true" id="c36eeea5-361e-4fd6-b41a-e1069b27d5b9" name="Changes" comment="Refactoring the design">
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/DecoratorPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/Soy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/Whip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverPattern/src/CurrentConditions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverPattern/src/Forecast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverPattern/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverPattern/src/Statistics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverPattern/src/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/src/WeatherData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666616571827</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactoring the design">
+      <created>1666619062022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666619062022</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +103,7 @@
     <MESSAGE value="Implementation of Strategy Design Pattern" />
     <MESSAGE value="Implementation of Observer Pattern" />
     <MESSAGE value="Improvement on subscribe system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improvement on subscribe system" />
+    <MESSAGE value="Refactoring the design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring the design" />
   </component>
 </project>
