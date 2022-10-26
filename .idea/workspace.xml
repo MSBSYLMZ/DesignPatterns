@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c36eeea5-361e-4fd6-b41a-e1069b27d5b9" name="Changes" comment="Refactoring the design">
-      <change afterPath="$PROJECT_DIR$/DecoratorPattern/DecoratorPattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/CondimentDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/DarkRoast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/HouseBlend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/Mocha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/Soy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DecoratorPattern/src/Whip.java" afterDir="false" />
+    <list default="true" id="c36eeea5-361e-4fd6-b41a-e1069b27d5b9" name="Changes" comment="Implemented Decorator Pattern">
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/ChicagoStyleCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/NYPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/NYStyleCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/NYStyleVeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/PizzaStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -85,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666619062022</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implemented Decorator Pattern">
+      <created>1666709063199</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666709063199</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +109,7 @@
     <MESSAGE value="Implementation of Observer Pattern" />
     <MESSAGE value="Improvement on subscribe system" />
     <MESSAGE value="Refactoring the design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring the design" />
+    <MESSAGE value="Implemented Decorator Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Decorator Pattern" />
   </component>
 </project>
