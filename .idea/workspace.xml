@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c36eeea5-361e-4fd6-b41a-e1069b27d5b9" name="Changes" comment="Implemented Decorator Pattern">
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/ChicagoStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/NYStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/NYStyleVeggiePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/PizzaStore.java" afterDir="false" />
+    <list default="true" id="c36eeea5-361e-4fd6-b41a-e1069b27d5b9" name="Changes" comment="Implemented Factory Pattern">
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/SingletonPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/ChocolateBoiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -90,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666709063199</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented Factory Pattern">
+      <created>1666771694095</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666771694095</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +112,7 @@
     <MESSAGE value="Improvement on subscribe system" />
     <MESSAGE value="Refactoring the design" />
     <MESSAGE value="Implemented Decorator Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Decorator Pattern" />
+    <MESSAGE value="Implemented Factory Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Factory Pattern" />
   </component>
 </project>
